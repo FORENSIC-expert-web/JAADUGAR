@@ -2,7 +2,10 @@ import streamlit as st
 import pandas as pd
 import time
 
-st.title("🔥 Free NSE Predictor Bot v2")
+import streamlit as st
+st.set_page_config(page_title="🚀 JAADUGAR ", page_icon="📈")
+st.title("🚀 JAADUGAR ")  # Old wala replace
+
 
 ticker = st.text_input("NSE Stock (RELIANCE.NS):", "RELIANCE.NS").upper()
 if st.button("🚀 Predict") and ticker:
